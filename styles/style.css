@@ -1,3 +1,21 @@
 body{
-background-image: url(../images/Arrière-plan.jpg);
+  background-image: url(../images/Arrière-plan.jpg);
+}
+.menu{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu h1{
+  margin-left: 50px;
+}
+.menu nav ul{
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+.menu nav ul li{
+  list-style: none;
+  font-family: lily script one;
 }
