@@ -17,5 +17,6 @@ body{
 }
 .menu nav ul li{
   list-style: none;
-  font-family: lily script one;
+  font-family: 'Lily Script One', cursive;
+  font-size: 20pt;
 }
