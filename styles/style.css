@@ -2,13 +2,13 @@ body{
   background-image: url(../images/Arrière-plan.jpg);
 }
 .menu{
-  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #535251;
 }
-.menu h1{
-  margin-left: 50px;
+.menu img{
+width: 200px;
 }
 .menu nav ul{
   display: flex;
@@ -19,9 +19,12 @@ body{
   list-style: none;
   font-family: 'Lily Script One', cursive;
   font-size: 20pt;
-  width: 500px;
-  border: 2px solid red;
+  border: 2px solid white;
+  padding:17px;
+}
+.menu nav ul li a:link, .menu nav ul li a:visited{
+  color: 	#a5a5a5;
 }
 .menu nav ul li a:link:hover, .menu nav ul li a:visited:hover{
-  color: purple;
+  color: white;
 }
