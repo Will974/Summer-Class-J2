@@ -19,4 +19,9 @@ body{
   list-style: none;
   font-family: 'Lily Script One', cursive;
   font-size: 20pt;
+  width: 500px;
+  border: 2px solid red;
+}
+.menu nav ul li a:link:hover, .menu nav ul li a:visited:hover{
+  color: purple;
 }
