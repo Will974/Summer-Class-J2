@@ -1,3 +1,22 @@
-{
-  
+.menu{
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  width: 100%;
+}
+
+.menu h1{
+  margin-left: 50px;
+}
+
+.menu nav ul{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  font-size: 25px;
+}
+
+.menu nav ul li{
+  justify-content: space-around;
+  width: 200px;
 }
