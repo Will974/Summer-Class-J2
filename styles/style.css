@@ -29,9 +29,7 @@ width: 200px;
   color: white;
 }
 .t-shirt img{
- display: flex;
- margin: auto;
- margin-top: 60px;
- width: 400px;
- line-height: normal;
+ margin-top: 80px;
+ width: 30%;
+ margin-left: 35%
 }
