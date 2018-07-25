@@ -1,6 +1,9 @@
 body{
   background-image: url(../images/Arrière-plan.jpg);
 }
+p{
+  
+}
 .menu{
   display: flex;
   justify-content: space-between;
