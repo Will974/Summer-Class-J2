@@ -7,6 +7,19 @@ body{
   font-family: 'Roboto', sans-serif;
   margin-left: 50px;
 }
+.contenu img{
+
+}
+.event{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 30%;
+  margin-left: 15%
+}
+.event p{
+  margin-left: 85%
+}
 .menu{
   display: flex;
   justify-content: space-between;
