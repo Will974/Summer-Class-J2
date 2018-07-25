@@ -5,8 +5,10 @@ body{
   padding: 0;
 }
 
-.comptearebours{
-  text-align: center;
+.fusee{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .lancement{
@@ -22,8 +24,28 @@ body{
   border: 2px solid #C24FD7;
 }
 
+.lancement2{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
 .comptearebours{
   color: white;
   font-family: 'Roboto', sans-serif;
+  font-size: 75px;
+  width: 100px;
+  height: 100px;
+  margin-left: 47%;
+  border: 7px solid white;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 9px 4px 0 4px;
+}
+
+.test{
+  color: white;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
+  text-align: center;
 }
