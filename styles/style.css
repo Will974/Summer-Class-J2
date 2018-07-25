@@ -1,3 +1,8 @@
+a:visited, a:link{
+  text-decoration: none;
+  color: white;
+}
+
 .menu{
   display: flex;
   justify-content: space-between;
@@ -5,6 +10,8 @@
   background-color: #535251;
   width: 100%;
   height: 150px;
+  border-bottom: 1px solid white;
+  box-shadow: 0px 2px 5px #281554;
 }
 
 .menu img{
@@ -42,7 +49,7 @@
 }
 
 body{
-  background-color: #f95959;
+  background-color: #311A63;
   margin: 0;
   padding: 0;
 }
@@ -116,6 +123,7 @@ body{
 footer{
   background-color: black;
   font-family: 'Roboto', sans-serif;
+  border-top: 1px solid white;
 }
 
 footer p{
@@ -127,17 +135,42 @@ footer p{
 
 .foot1{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 50%;
   margin-left: 25%;
 }
 
 .foot1 p{
-  justify-content: space-around;
-  width: 80%;
+  width: 50%;
 }
-
 
 .espace{
   margin-top: 500px;
+}
+
+
+.barre{
+  background-color: white;
+  width: 20%;
+  height: 2px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.comptearebours{
+  text-align: center;
+}
+
+.lancement{
+  text-align: center;
+  background-color: #311A63;
+  color: white;
+  width: 10%;
+  margin-left: 45%;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  border-radius: 35px;
+  border: 2px solid #C24FD7;
 }
