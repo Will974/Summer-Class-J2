@@ -1,3 +1,5 @@
+
+
 .menu{
   display: flex;
   justify-content: space-between;
@@ -115,14 +117,11 @@ body{
 
 footer{
   background-color: black;
-  margin: 0;
-  padding-bottom: 3px;
 }
 
 footer p{
   color: white;
   text-align: center;
-  align-items: center;
 }
 
 .espace{
