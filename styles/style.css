@@ -2,7 +2,7 @@ body{
   background-image: url(../images/Arrière-plan.jpg);
 }
 p{
-  
+  font-family: 'Roboto', sans-serif;
 }
 .menu{
   display: flex;
