@@ -1,8 +1,11 @@
 body{
   background-image: url(../images/Arrière-plan.jpg);
+  margin: 0;
+  padding: 0;
 }
-p{
+.contenu{
   font-family: 'Roboto', sans-serif;
+  margin-left: 50px;
 }
 .menu{
   display: flex;
