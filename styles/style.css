@@ -43,17 +43,19 @@
 
 body{
   background-color: #f95959;
+  margin: 0;
+  padding: 0;
 }
 
 .commentaire{
   display: flex;
   justify-content: space-between;
-  margin-top: 250px;
+  margin-top: 30px;
   border: 1px solid white;
   align-items: center;
   width: 50%;
   margin-left: 25%;
-  background-color: black;
+  background-color: white;
   border: 2px solid grey;
 }
 
@@ -76,6 +78,7 @@ body{
   margin-left: 25px;
   text-align: justify;
   margin-right: 25px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .commentaire2{
@@ -107,4 +110,21 @@ body{
   margin-right: 25px;
   text-align: justify;
   padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer{
+  background-color: black;
+  margin: 0;
+  padding-bottom: 3px;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.espace{
+  margin-top: 500px;
 }
