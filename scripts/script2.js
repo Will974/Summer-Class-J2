@@ -1,7 +1,7 @@
 let action = document.querySelector(".action")
 let time = document.querySelector('.time')
 let article = document.querySelector(".t_shirt_1")
-let number = 1
+let number = 10
 
 action.addEventListener(
   'click',
@@ -10,7 +10,7 @@ action.addEventListener(
   }, false);
 
   function decollage() {
-    if(number > 1) {
+    if(number > 0) {
       time.innerHTML = (number -= 1)
     } else {
       time.innerHTML = 0
