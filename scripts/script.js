@@ -1,6 +1,6 @@
 let action = document.querySelector(".action")
 let time = document.querySelector('.time')
-let article = document.querySelector(".article")
+let article = document.querySelector(".t_shirt_1")
 let number = 1
 
 action.addEventListener(
@@ -14,7 +14,7 @@ action.addEventListener(
       time.innerHTML = (number -= 1)
     } else {
       time.innerHTML = 0
-      article.style.transform = "translateX(1000px) translateY(-410px) scale(0.08) rotate(360deg)"
-      article.style.transition = "all 0.6s"
+      article.style.transform = "translateX(1010px) translateY(-410px) scale(0.08) rotate(360deg)"
+      article.style.transition = "all 0.4s"
     }
   }

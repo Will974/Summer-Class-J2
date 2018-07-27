@@ -36,8 +36,8 @@ width: 200px;
   display: flex;
 }
 .welcome{
-  margin-left: 334px;
-  margin-right: 334px;
+  width: 960px;
+  margin: auto;
 }
 .caddie{
   margin-left: auto;
@@ -56,21 +56,35 @@ width: 200px;
   font-size: 18pt;
 }
 .article{
-  width: 20%;
+background-color: white;
+  align-items: center;
+  height: 310px;
+  width: 17%;
   margin-left: 35%;
   margin-right: 10%;
   z-index: 1;
+  border: 2px solid black;
 }
 .article img{
   width: 300px;
   height: 300px;
+  margin-left: 5px;
+}
+.no_article{
+ text-align: center;
+}
+.erreur{
+  text-align: center;
+}
+.erreur img{
+  width: 100px;
+  height: 100px;
 }
 .action{
   margin-top: 35%;
 }
 .countdown{
   position: relative;
-
   width: 200px;
   height: 40px;
 }
