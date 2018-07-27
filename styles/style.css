@@ -255,7 +255,7 @@ footer p{
 }
 
 .tchat{
-  display: block;
+  display: none;
   font-size: 20px;
   background-color: white;
   border: 3px solid #e03e3e;

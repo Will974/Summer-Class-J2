@@ -111,6 +111,7 @@ footer p{
   display: flex;
   font-family: 'Roboto', sans-serif;
   font-size: 18pt;
+  margin-bottom: 50px;
 }
 .article{
 background-color: white;
@@ -167,6 +168,7 @@ background-color: white;
 
 .t_shirt{
   margin-left: 35%;
+
 }
 .t_shirt img{
   width: 500px;
