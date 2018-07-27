@@ -3,28 +3,8 @@ body{
   margin: 0;
   padding: 0;
 }
-.contenu{
-  font-family: 'Roboto', sans-serif;
-  margin-left: 50px;
-}
-.contenu img{
-
-}
-.event{
-  display: flex;
-}
-.event .article{
-  justify-content: space-between;
-  margin-top: 100px;
-  width: 30%;
-  margin-left: 15%
-}
-.event .rebours{
-  margin-left: 25%;
-  align-items: center;
-  padding-top: 200px;
-}
 .menu{
+  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,8 +31,73 @@ width: 200px;
 .menu nav ul li a:link:hover, .menu nav ul li a:visited:hover{
   color: white;
 }
-.t-shirt img{
- margin-top: 80px;
- width: 30%;
- margin-left: 35%
+.container{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+}
+.welcome{
+  margin-left: 334px;
+  margin-right: 334px;
+}
+.caddie{
+  margin-left: auto;
+  z-index: 2;
+}
+.caddie img{
+  width: 100px;
+  height: 100px;
+}
+.espace_page_3{
+  height: 200px;
+}
+.event{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18pt;
+}
+.article{
+  width: 20%;
+  margin-left: 35%;
+  margin-right: 10%;
+  z-index: 1;
+}
+.article img{
+  width: 300px;
+  height: 300px;
+}
+.action{
+  margin-top: 35%;
+}
+.countdown{
+  position: relative;
+
+  width: 200px;
+  height: 40px;
+}
+.trigger {
+  border: 2px solid #fefefe;
+  border-radius: 20px;
+  cursor: pointer;
+  color : white;
+  background-color: #e74c3c;
+}
+.trigger:hover{
+  background-color : white;
+  transition: ease-in-out 0.5s ;
+  color : #e74c3c;
+}
+.action{
+  position: absolute;
+  text-align: center;
+  width: 170px;
+  height: 37px;
+}
+
+.t_shirt{
+  margin-left: 35%;
+}
+.t_shirt img{
+  width: 500px;
+  height: 500px;
+  padding-top: 50px;
 }
